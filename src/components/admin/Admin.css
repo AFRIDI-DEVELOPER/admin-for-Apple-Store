@@ -211,6 +211,12 @@
     margin-bottom: 2.5rem;
 }
 
+.login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
 .login-form input {
     width: 100%;
     padding: 1rem;
@@ -219,9 +225,18 @@
     border: 1px solid rgba(255, 255, 255, 0.1);
     color: white;
     text-align: center;
+    font-size: 1rem;
+}
+
+.back-to-site {
+    display: inline-block;
+    margin-top: 1.5rem;
+    color: var(--primary);
+    text-decoration: none;
+    font-size: 0.95rem;
 }
 
 .error-message {
     color: #ff3b30;
-    margin-top: 1rem;
+    margin: 0;
 }
