@@ -29,7 +29,7 @@ const AdminLayout = () => {
                     <div className="login-header">
                         <span className="lock-icon">🔒</span>
                         <h1>Admin Access</h1>
-                        <p>Please enter the administrator password to continue.</p>
+                        <p>THis page is only accessable to admin.</p>
                     </div>
                     <form onSubmit={handleLogin} className="login-form">
                         <div className="input-group">
@@ -47,7 +47,7 @@ const AdminLayout = () => {
                             Unlock Panel
                         </button>
                     </form>
-                    <a href="http://localhost:5173" className="back-to-site">← Back to Shop</a>
+                    <a href="https://anasiphonestore.netlify.app" className="back-to-site">← Back to Shop</a>
                 </div>
             </div>
         );
